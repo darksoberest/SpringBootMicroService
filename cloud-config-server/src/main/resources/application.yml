@@ -1,0 +1,11 @@
+server:
+  port: 9199
+spring:
+  application:
+    name: CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/darksoberest/config-server
+          clone-on-start: true
